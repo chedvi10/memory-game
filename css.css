@@ -1,0 +1,91 @@
+
+body {
+
+    background-color: black;
+    text-align: center;
+    font-family: Guttman Hatzvi;
+
+   
+}
+
+#the_game {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.gray_card {
+    height: 17vh;
+    width: 8vw;
+    border: solid white 5px;
+    background-color: gray;
+    margin: 5px;
+    border-radius: 20%;
+
+}
+
+#timer {
+    background-color: rgb(239, 87, 87);;
+    color: black;
+    font-size: 7vh;
+}
+
+h1 {
+    font-size: 80px;
+    margin-block-end: 3vh;
+    margin-block-start: 3vh;
+    background-color: black;
+}
+
+.my_a {
+    text-decoration: none;
+    color: white;
+}
+
+
+#input_name {
+    margin-top: 5vh;
+    width: 200px;
+    font-size: 120%;
+    text-align: center;
+    font-family: Guttman Hatzvi;
+    background-color: rgb(239, 87, 87);
+}
+
+p {
+    margin-top: 4vh;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 125%;
+}
+
+#my_select select {
+    width: 120px;
+    font-size: 120%;
+    color: black;
+    background-color: rgb(239, 87, 87);
+    border: solid 1px black;
+    font-family: Guttman Hatzvi;
+    text-align: center;
+
+}
+
+
+#my_select button {
+    width: 200px;
+    font-size: 110%;
+    color: rgb(239, 87, 87);
+    background-color: black;
+    border: solid 3px rgb(239, 87, 87);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-block-start: 9vh;
+    font-family: Guttman Hatzvi;
+
+}
+
+#my_select button:hover {
+    opacity: 0.5;
+}

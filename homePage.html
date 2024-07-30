@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>memory_game</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <h1>Welcome To Memory Game! </h1>
+
+
+    <form id="my_select" action="game.html">
+
+       <input id="input_name" type="text" placeholder=" הקלד את שמך ">
+      <div id="my_div"></div>
+       <br>
+       <p>בחר כאן את רמת המשחק</p>
+        <select name="level_game">
+            <option value="easy">מתחילים</option>
+            <option value="mid">מתקדמים</option>
+            <option value="high">אלופים</option>
+        </select>
+        <br>
+        <button id="my_submit" type="submit">לחץ להתחלת המשחק</button>
+    </form>
+    <script src="js.js"></script>
+</body>
+
+</html>
